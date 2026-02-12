@@ -1,0 +1,14 @@
+terraform/.terraform
+terraform/.terraform.lock.hcl
+
+
+# Ansible
+ansible/*.retry
+
+# Editors
+.vscode/
+
+# OS / junk
+.DS_Store
+Thumbs.db
+*.log
