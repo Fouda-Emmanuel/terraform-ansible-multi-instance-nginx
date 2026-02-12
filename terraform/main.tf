@@ -40,7 +40,7 @@ resource "aws_vpc_security_group_egress_rule" "allow_all_traffic_ipv4" {
 
 resource "aws_key_pair" "web_keypair" {
   key_name   = "web-key-pair"
-  public_key = file("~/.ssh/id_ed25519.pub")
+  public_key = file("~/.ssh/id_ed25519.pub") 
 }
 
 resource "aws_instance" "web" {
